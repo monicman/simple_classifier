@@ -25,8 +25,3 @@ steps:
     pip install pandas
     python datascience_simple_train.py
   displayName: 'Install dependencies'
-
-- script: |
-    pip install pytest pytest-azurepipelines
-    pytest
-  displayName: 'pytest'
