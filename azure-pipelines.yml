@@ -9,8 +9,8 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 strategy:
-    Python37:
-      python.version: '3.7'
+  Python37:
+    python.version: '3.7'
 
 steps:
 - task: UsePythonVersion@0
