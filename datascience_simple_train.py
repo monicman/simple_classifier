@@ -18,4 +18,6 @@ y_pred = clf.predict(X_test)
 #Accuracy
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
+print("Lets print it again")
+
 
